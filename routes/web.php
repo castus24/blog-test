@@ -20,9 +20,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::group(['namespace' => 'App\Http\Controllers\Main'], function () {
-//    Route::get('/', 'IndexController');
-//});
 Route::namespace('App\Http\Controllers\Main')
     ->group(function () {
         Route::get('/', [IndexController::class, 'index'])->name('main.index');
@@ -30,7 +27,7 @@ Route::namespace('App\Http\Controllers\Main')
 
 Route::namespace('App\Http\Controllers\Admin')
     ->prefix('admin')
-    ->middleware(['auth', 'admin', 'verified'])
+    ->middleware(['auth', 'verified', 'role:ADMIN'])
     ->group(function () {
         Route::namespace('Main')
             ->group(function () {

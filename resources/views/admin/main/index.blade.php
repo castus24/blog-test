@@ -37,7 +37,7 @@
                             <p>Users</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-bag"></i>
+                            <i class="fa fa-user-circle" aria-hidden="true"></i>
                         </div>
                         <a href="{{ route('admin.user.index') }}" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
@@ -52,7 +52,7 @@
                             <p>Category</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
+                            <i class="fa fa-list-ol" aria-hidden="true"></i>
                         </div>
                         <a href="{{ route('admin.category.index') }}" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
@@ -67,7 +67,7 @@
                             <p>Post</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-person-add"></i>
+                            <i class="fa fa-clipboard" aria-hidden="true"></i>
                         </div>
                         <a href="{{ route('admin.post.index') }}" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
@@ -82,7 +82,7 @@
                             <p>Tag</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-pie-graph"></i>
+                            <i class="fa fa-tags" aria-hidden="true"></i>
                         </div>
                         <a href="{{ route('admin.tag.index') }}" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
                     </div>

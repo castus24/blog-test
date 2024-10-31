@@ -5696,7 +5696,7 @@ exports.utf8border = function (buf, max) {
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -5745,7 +5745,7 @@ module.exports = adler32;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -5819,7 +5819,7 @@ module.exports = {
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -5876,7 +5876,7 @@ module.exports = crc32;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -7752,7 +7752,7 @@ exports.deflateTune = deflateTune;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -7812,7 +7812,7 @@ module.exports = GZheader;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -8159,7 +8159,7 @@ module.exports = function inflate_fast(strm, start) {
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -9717,7 +9717,7 @@ exports.inflateUndermine = inflateUndermine;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -10062,7 +10062,7 @@ module.exports = function inflate_table(type, lens, lens_index, codes, table, ta
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -10096,7 +10096,7 @@ module.exports = {
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -11318,7 +11318,7 @@ exports._tr_align = _tr_align;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //

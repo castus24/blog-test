@@ -4,14 +4,23 @@ namespace App\Http\Controllers\Main;
 
 use App\Http\Controllers\Controller;
 use App\Models\Post;
-use Illuminate\Http\Request;
+use Illuminate\Contracts\View\Factory;
+use Illuminate\Contracts\View\View;
+use Illuminate\Foundation\Application;
 
 class IndexController extends Controller
 {
-    public function index()
+    public function index(): View|Application|Factory
     {
-        $posts = Post::paginate(6);
-        $randomPosts = Post::get()->random(5);
-        return view('main.index', compact('posts', 'randomPosts'));
+        $posts = Post::query()->paginate(6);
+        $randomPosts = Post::query()
+            ->get()
+            ->random(5);
+        $likedPosts = Post::query()
+            ->withCount('likedUsers')
+            ->orderBy('liked_users_count', 'DESC')
+            ->get()->take(4);
+
+        return view('main.index', compact('posts', 'randomPosts', 'likedPosts'));
     }
 }

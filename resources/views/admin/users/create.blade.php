@@ -55,10 +55,10 @@
                             <div class="form-group w-50">
                                 <label>Roles</label>
                                 <select class="form-control" name="role" style="width: 100%;">
-                                    @foreach($roles as $id => $role)
+                                    @foreach($roles as $role)
                                         <option
-                                            {{ $id == old('role') ? ' selected' : '' }}
-                                            value="{{ $id }}">{{ $role }}</option>
+                                            {{ $role == old('role') ? ' selected' : '' }}
+                                            value="{{ $role }}">{{ $role }}</option>
                                     @endforeach
                                 </select>
                                 @error('role')

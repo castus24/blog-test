@@ -2,27 +2,35 @@
 
 namespace App\Models;
 
+use App\Enums\RoleEnum;
 use App\Notifications\SendVerifyWithQueueNotification;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
+use Spatie\Permission\Traits\HasRoles;
 
+/**
+ * @property string $name
+ * @property string $email
+ * @property string $role
+ */
 class User extends Authenticatable implements MustVerifyEmail
 {
-    use HasApiTokens, HasFactory, Notifiable, SoftDeletes;
+    use HasApiTokens, HasFactory, Notifiable, SoftDeletes, HasRoles;
 
-    const ROLE_ADMIN = 0;
-    const ROLE_READER = 1;
-
-    public static function getRoles()
+    protected static function boot(): void
     {
-        return [
-            self::ROLE_ADMIN => 'Admin',
-            self::ROLE_READER => 'Reader',
-        ];
+        parent::boot();
+
+        static::creating(function ($model) {
+            /** @var User $model */
+            $model->assignRole(RoleEnum::READER()->value);
+        });
     }
 
     /**
@@ -34,7 +42,6 @@ class User extends Authenticatable implements MustVerifyEmail
         'name',
         'email',
         'password',
-        'role',
     ];
 
     /**
@@ -56,16 +63,16 @@ class User extends Authenticatable implements MustVerifyEmail
         'email_verified_at' => 'datetime',
     ];
 
-    public function sendEmailVerificationNotification()
+    public function sendEmailVerificationNotification(): void
     {
         $this->notify(new SendVerifyWithQueueNotification());
     }
 
-    public function likedPosts()
+    public function likedPosts(): BelongsToMany
     {
         return $this->belongsToMany(Post::class, 'post_user_likes', 'user_id', 'post_id');
     }
-    public function comments()
+    public function comments(): HasMany
     {
         return $this->hasMany(Comment::class, 'user_id');
     }

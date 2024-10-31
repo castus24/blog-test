@@ -4979,7 +4979,7 @@ critical-role:
   changes:
     - 5.4.0
     - 5.8.0
-  label: Critical Role
+  label: Critical RoleEnum
   search:
     terms:
       - Dungeons & Dragons

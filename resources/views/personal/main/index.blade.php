@@ -37,7 +37,7 @@
                             <p>Liked</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-bag"></i>
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
                         </div>
                         <a href="{{ route('personal.liked.index') }}" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
@@ -52,7 +52,7 @@
                             <p>Comments</p>
                         </div>
                         <div class="icon">
-                            <i class="ion ion-stats-bars"></i>
+                            <i class="fa fa-comment" aria-hidden="true"></i>
                         </div>
                         <a href="{{ route('personal.comment.index') }}" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
                     </div>

@@ -3,14 +3,15 @@
 namespace App\Http\Controllers\Admin\Tag;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\Admin\Category\UpdateRequest;
 use App\Models\Tag;
+use Illuminate\Http\RedirectResponse;
 
 class DestroyController extends Controller
 {
-    public function index(Tag $tag)
+    public function index(Tag $tag): RedirectResponse
     {
         $tag->delete();
+
         return redirect()->route('admin.tag.index');
     }
 }

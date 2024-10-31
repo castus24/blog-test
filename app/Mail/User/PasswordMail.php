@@ -13,14 +13,13 @@ class PasswordMail extends Mailable implements ShouldQueue
 {
     use Queueable, SerializesModels;
 
-    public $password;
+    public string $password;
 
     /**
      * Create a new message instance.
      */
     public function __construct($password)
     {
-        //
         $this->password = $password;
     }
 

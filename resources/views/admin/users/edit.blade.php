@@ -32,8 +32,9 @@
                             @method('patch')
                             <div class="form-group">
                                 <label>Title</label>
-                                <input type="text" class="form-control" name="name" value="{{ $user->name }}" placeholder="Username"
-                                       >
+                                <input type="text" class="form-control" name="name" value="{{ $user->name }}"
+                                       placeholder="Username"
+                                >
                                 {{--  todo make contentedable to update --}}
                                 @error('name')
                                 <div class="text-danger">{{ $message }}</div>
@@ -50,10 +51,10 @@
                             <div class="form-group w-50">
                                 <label>Roles</label>
                                 <select class="form-control" name="role" style="width: 100%;">
-                                    @foreach($roles as $id => $role)
+                                    @foreach($roles as $role)
                                         <option
-                                            {{ $id == $user->role ? ' selected' : '' }}
-                                            value="{{ $id }}">{{ $role }}</option>
+                                            {{ $role == $user->role ? ' selected' : '' }}
+                                            value="{{ $role }}">{{ $role }}</option>
                                     @endforeach
                                 </select>
                                 @error('role')

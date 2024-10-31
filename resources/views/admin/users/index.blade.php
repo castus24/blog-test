@@ -40,6 +40,7 @@
                                 <tr>
                                     <th>ID</th>
                                     <th>Users</th>
+                                    <th>Role</th>
                                     <th>Show</th>
                                     <th>Edit</th>
                                     <th>Delete</th>
@@ -50,6 +51,7 @@
                                     <tr>
                                         <td>{{ $user->id }}</td>
                                         <td>{{ $user->name }}</td>
+                                        <td>{{ $user->roles->first()->name }}</td>
                                         <td><a href="{{ route('admin.user.show', $user->id) }}"><i class="fa fa-solid fa-eye"></i></a></td>
                                         <td><a href="{{ route('admin.user.edit', $user->id) }}" class="text-success"><i class="fa fa-solid fa-pen"></i></a></td>
                                         <td>

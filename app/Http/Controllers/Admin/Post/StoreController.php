@@ -2,15 +2,12 @@
 
 namespace App\Http\Controllers\Admin\Post;
 
-use App\Http\Controllers\Controller;
 use App\Http\Requests\Admin\Post\StoreRequest;
-use App\Models\Category;
-use App\Models\Post;
-use Illuminate\Support\Facades\Storage;
+use Illuminate\Http\RedirectResponse;
 
 class StoreController extends BaseController
 {
-    public function index(StoreRequest $request)
+    public function index(StoreRequest $request): RedirectResponse
     {
         $data = $request->validated();
         $this->service->store($data);

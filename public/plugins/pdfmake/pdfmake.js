@@ -22,7 +22,7 @@ return /******/ (function() { // webpackBootstrap
 // Originally from narwhal.js (http://narwhaljs.org)
 // Copyright (c) 2009 Thomas Robinson <280north.com>
 //
-// Permission is hereby granted, free of charge, to any person obtaining a copy
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the 'Software'), to
 // deal in the Software without restriction, including without limitation the
 // rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
@@ -13412,7 +13412,7 @@ __webpack_require__(6699);
  * MIT LICENSE
  * Copyright (c) 2011 Devon Govett
  *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this
+ * PermissionEnum is hereby granted, free of charge, to any person obtaining a copy of this
  * software and associated documentation files (the "Software"), to deal in the Software
  * without restriction, including without limitation the rights to use, copy, modify, merge,
  * publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
@@ -29697,7 +29697,7 @@ exports.setTyped(TYPED_OK);
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -29752,7 +29752,7 @@ module.exports = adler32;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -29832,7 +29832,7 @@ module.exports = {
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -29895,7 +29895,7 @@ module.exports = crc32;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -31777,7 +31777,7 @@ exports.deflateTune = deflateTune;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -32130,7 +32130,7 @@ module.exports = function inflate_fast(strm, start) {
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -33694,7 +33694,7 @@ exports.inflateUndermine = inflateUndermine;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -34045,7 +34045,7 @@ module.exports = function inflate_table(type, lens, lens_index, codes, table, ta
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -34085,7 +34085,7 @@ module.exports = {
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -35315,7 +35315,7 @@ exports._tr_align = _tr_align;
 // warranty. In no event will the authors be held liable for any damages
 // arising from the use of this software.
 //
-// Permission is granted to anyone to use this software for any purpose,
+// PermissionEnum is granted to anyone to use this software for any purpose,
 // including commercial applications, and to alter it and redistribute it
 // freely, subject to the following restrictions:
 //
@@ -44952,7 +44952,7 @@ module.exports = {
 "use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -52401,7 +52401,7 @@ module.exports = function shimFlags() {
 
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -52674,7 +52674,7 @@ module.exports.q = codes;
 /* provided dependency */ var process = __webpack_require__(4155);
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -52820,7 +52820,7 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
 "use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -52867,7 +52867,7 @@ PassThrough.prototype._transform = function (chunk, encoding, cb) {
 /* provided dependency */ var process = __webpack_require__(4155);
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -53998,7 +53998,7 @@ function indexOf(xs, x) {
 "use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -54207,7 +54207,7 @@ function done(stream, er, data) {
 /* provided dependency */ var process = __webpack_require__(4155);
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -55518,7 +55518,7 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 "use strict";
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,
@@ -59441,7 +59441,7 @@ var DSIG = new r.Struct({
   usNumSigs: r.uint16,
   // Number of signatures in the table
   usFlag: r.uint16,
-  // Permission flags
+  // PermissionEnum flags
   signatures: new r.Array(Signature, 'usNumSigs'),
   signatureBlocks: new r.Array(SignatureBlock, 'usNumSigs')
 });
@@ -71403,7 +71403,7 @@ exports.isAnyArrayBuffer = isAnyArrayBuffer;
 /* provided dependency */ var process = __webpack_require__(4155);
 // Copyright Joyent, Inc. and other Node contributors.
 //
-// Permission is hereby granted, free of charge, to any person obtaining a
+// PermissionEnum is hereby granted, free of charge, to any person obtaining a
 // copy of this software and associated documentation files (the
 // "Software"), to deal in the Software without restriction, including
 // without limitation the rights to use, copy, modify, merge, publish,

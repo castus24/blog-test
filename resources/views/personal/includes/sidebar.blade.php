@@ -6,19 +6,19 @@
         <ul class="pt-3 nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
             <li class="nav-item">
                 <a href="{{ route('personal.main.index') }}" class="nav-link">
-                    <i class="nav-icon far fa-image"></i>
+                    <i class="nav-icon fa fa-home" aria-hidden="true"></i>
                     <p>Home</p>
                 </a>
             </li>
             <li class="nav-item">
                 <a href="{{ route('personal.liked.index') }}" class="nav-link">
-                    <i class="nav-icon far fa-image"></i>
+                    <i class="nav-icon fa fa-thumbs-up" aria-hidden="true"></i>
                     <p>Liked</p>
                 </a>
             </li>
             <li class="nav-item">
                 <a href="{{ route('personal.comment.index') }}" class="nav-link">
-                    <i class="nav-icon far fa-image"></i>
+                    <i class="nav-icon fa fa-comment" aria-hidden="true"></i>
                     <p>Comments</p>
                 </a>
             </li>
